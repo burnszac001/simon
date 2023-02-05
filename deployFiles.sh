@@ -5,7 +5,7 @@ do
     case "${flag}" in
         k) key=${OPTARG};;
         h) hostname=${OPTARG};;
-        s) service=${OPTARG}::
+        s) service=${OPTARG};;
     esac
 done
 
