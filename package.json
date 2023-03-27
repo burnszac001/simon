@@ -1,23 +1,25 @@
 {
-  "name": "simon",
+  "name": "simon-db",
   "version": "1.0.0",
-  "description": "This deliverable demonstrates the use of basic HTML elements for structure, basic formatting, input, output, links, and drawing.",
-  "main": "login.js",
+  "description": "This demonstrates creating an HTTP service that provides service endpoints. We use this to provide endpoints for getting and updating the scores.",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/burnszac001/simon.git"
+    "url": "git+https://github.com/webprogramming260/simon-db.git"
   },
-  "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/burnszac001/simon/issues"
+    "url": "https://github.com/webprogramming260/simon-db/issues"
   },
-  "homepage": "https://github.com/burnszac001/simon#readme",
+  "homepage": "https://github.com/webprogramming260/simon-db#readme",
   "dependencies": {
-    "express": "^4.18.2"
-  }
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongodb": "^4.14.0"
+  },
+  "keywords": []
 }
