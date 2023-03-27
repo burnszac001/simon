@@ -1,5 +1,10 @@
 async function loadScores() {
   let scores = [];
+  const scoresText = localStorage.getItem('scores');
+  if (scoresText) {
+    scores = JSON.parse(scoresText);
+  }
+  displayScores(scores);
   try {
     // Get the latest high scores from the service
     const response = await fetch('/api/scores');
