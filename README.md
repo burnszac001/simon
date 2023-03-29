@@ -1,3 +1,3 @@
-# simon-db
+# simon-websocket
 
-This deliverable demonstrates using a database service, MongoDB, to persistently save data.
+This deliverable demonstrates peer to peer communication using WebSocket.
